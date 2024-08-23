@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function Mouse() {
   //   const [mouseMove, SetMouseMove] = useState({
   //     x: 0,
