@@ -117,7 +117,7 @@ export const JOURNEY: Journey[] = [
 import htmlPng from "../assets/Logo/html.png"; // 0
 import CssPng from "../assets/Logo/css.png"; // 1
 import JavascriptPng from "../assets/Logo/javascript.png"; // 2
-import tailwindPng from "../assets/logo/tailwind.png"; // 3
+import tailwindPng from "../assets/Logo/tailwind.png"; // 3
 import sassPng from "../assets/Logo/sass.png"; // 4
 import reactPng from "../assets/Logo/reactjs.png"; // 5
 import reduxPng from "../assets/Logo/redux.png"; // 6
