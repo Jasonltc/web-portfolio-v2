@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { CiMenuFries } from "react-icons/ci";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -8,6 +9,11 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const MainMenu = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
 
   function closeMenuHandle() {
     setOpen((prev) => !prev);
@@ -39,7 +45,7 @@ const MainMenu = () => {
               ease: "easeInOut",
             }}
             exit={{ x: 550 }}
-            className="fixed top-0 right-0 w-3/4 md:w-1/3 xl:w-[300px] bg-blackColor text-white h-svh overflow-hidden z-10 shadow-xl shadow-black  
+            className="fixed top-0 right-0 w-3/4 md:w-1/3 xl:w-[300px] bg-blackColor text-white h-full z-10 shadow-xl shadow-black  
         "
           >
             <IoCloseCircleOutline
