@@ -127,8 +127,8 @@ function Hero() {
       <section className="mb-16 py-4 overflow-hidden xl:mb-20 ">
         <motion.div
           className="bg-blackColor"
-          initial={{ opacity: 0, rotate: "1deg" }}
-          whileInView={{ opacity: 1, rotate: "1deg" }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{
             delay: 0.5,
             duration: 1,
