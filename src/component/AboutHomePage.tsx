@@ -14,8 +14,8 @@ const AboutHomePage = () => {
           <div className="relative w-1/2">
             <motion.div
               className="w-24 h-10 bg-green border ml-auto rounded-l-full"
-              initial={{ x: -50, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ scale: 0, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
               transition={{
                 duration: 1,
                 ease: "easeInOut",
