@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import BtnWeb from "../ui/BtnWeb";
-import myCv from "../assets/pdf/CV_2024.pdf";
+import myCv from "../assets/pdf/CV_2025.pdf";
 import heroprofile from "../assets/profile/intro-profil.jpg";
 import { TbBuildingBridge } from "react-icons/tb";
 import { CgScrollV } from "react-icons/cg";
@@ -99,7 +99,7 @@ function Hero() {
           <BtnWeb link="/about">About me</BtnWeb>
           <a
             href={myCv}
-            download="CV_2024.pdf"
+            download="CV_2025.pdf"
             className="py-3 px-10 bg-white text-gray-600 text-base border border-gray-300 hover:bg-green hover:text-white hover:scale-110 md:w-[165px] uppercase transition-all shadow-md ease-in duration-300 font-roboto lg:py-2 lg:px-7"
           >
             My resume

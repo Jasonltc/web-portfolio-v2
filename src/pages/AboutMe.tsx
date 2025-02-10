@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 // import { useRef } from "react";
 import LetConnect from "../component/LetConnect";
 import { FACTS, JOURNEY } from "../Store/AboutData";
-import myCv from "../assets/pdf/CV_2024.pdf";
+import myCv from "../assets/pdf/CV_2025.pdf";
 import aboutme1 from "../assets/profile/aboutme1.png";
 import aboutme2 from "../assets/profile/aboutme2.png";
 import aboutme3 from "../assets/profile/aboutme3.png";
@@ -200,7 +200,7 @@ const AboutPage = () => {
 
         <a
           href={myCv}
-          download="CV_2024.pdf"
+          download="CV_2025.pdf"
           className="py-3 px-10 bg-white text-gray-600 text-base border border-gray-300 hover:bg-green hover:text-white w-[165px] uppercase transition-all shadow-md ease-in duration-300 block text-center mx-auto font-roboto"
         >
           My resume
