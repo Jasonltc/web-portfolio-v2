@@ -4,6 +4,8 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Errorpage from "./component/Errorpage";
 import Homepage from "./pages/Homepage";
+import Learning from "./component/experience/Learning";
+import MainModel from "./component/blender_three/Main";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/others",
+        element: <Learning />,
+      },
+      {
+        path: "/model-3d",
+        element: <MainModel />,
       },
     ],
   },

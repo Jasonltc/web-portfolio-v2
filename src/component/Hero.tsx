@@ -85,8 +85,7 @@ function Hero() {
             }}
             variants={heroVariable}
           >
-            I am a frontend developer from Mauritius, with 5 years of
-            experience.
+            With almost 5 years of experience.
           </motion.p>
         </div>
 
