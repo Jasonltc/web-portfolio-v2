@@ -85,7 +85,7 @@ function Hero() {
             }}
             variants={heroVariable}
           >
-            With almost 5 years of experience.
+            with almost 5 years of professional expertise in the field
           </motion.p>
         </div>
 
